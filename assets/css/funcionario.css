@@ -1,0 +1,553 @@
+
+:root {
+    --primaria:#733430;
+    --secundaria: #C08261;
+    --ternaria: #E2C799;
+    --quartenaria: #F2ECBE;
+}
+
+body{
+    background-color: #FEFEFE;
+}
+
+a:hover{
+    color: var(--secundaria);
+}
+a{
+
+    padding-bottom: 50px;
+    margin: 50px;
+    text-decoration: none;
+    color:var(--primaria);
+}
+
+form{
+    display: flex;
+    font-size: 30px;
+    position: relative;
+    left: 50%;
+    bottom: 150%;
+}
+.tipo{
+position: relative;
+bottom: 180px;
+left: 190px;
+}
+#tipo{
+    background-color: var(--primaria);
+color: var(--ternaria);
+border-radius: 30px;
+border: 3px solid var(--ternaria);
+margin-top:1px;
+font-size: 24px;
+    position: relative;
+    bottom: 130px;
+    left: 60px; 
+    text-align: center;
+}
+#tipo:hover{
+    border: 3px solid var(--primaria); 
+    background-color: var(--ternaria);
+    color: var(--primaria);
+}
+.sabor{
+position: relative;
+bottom: 180px;
+left: 160px;
+}
+#sabor{
+position: relative;
+ bottom: 130px;
+ left: 30px; 
+ width: 210px;
+background-color: var(--primaria);
+color: var(--ternaria);
+border-radius: 30px;
+border: 3px solid var(--ternaria);
+margin-top:1px;
+font-size: 24px;
+text-align: center;
+}
+#sabor:hover{
+    border: 3px solid var(--primaria); 
+    background-color: var(--ternaria);
+    color: var(--primaria);
+}
+.uni{
+position: relative;
+bottom: 265px;
+right: 686px;
+}
+#quantidade{ 
+position: relative;
+bottom: 268px;
+right: 676px;
+width: 50px;
+background-color: var(--primaria);
+color: var(--ternaria);
+border-radius: 30px;
+border: 3px solid var(--ternaria);
+box-shadow: 0 0 15px 9px var(--primaria);
+margin-top:1px;
+font-size: 24px;
+font-family: 'roboto', cursive;
+text-align: center;
+}
+#quantidade:hover{
+    border: 3px solid var(--primaria); 
+    background-color: var(--ternaria);
+    color: var(--primaria);
+}
+.ad{
+background-color: var(--primaria);
+color: var(--ternaria);
+border-radius: 30px;
+border: 3px solid var(--ternaria);
+box-shadow: 0 0 15px 9px var(--primaria);
+margin-top:1px;
+font-size: 24px;
+font-family: 'roboto', cursive;
+    position: relative;
+    bottom: 268px;
+    right: 660px;
+    width: 50px;  
+}
+.ad:hover{
+    border: 3px solid var(--primaria); 
+    background-color: var(--ternaria);
+    color: var(--primaria);
+}
+.rt{
+background-color: var(--primaria);
+color: var(--ternaria);
+border-radius: 30px;
+border: 3px solid var(--ternaria);
+box-shadow: 0 0 15px 9px var(--primaria);
+margin-top:1px;
+font-size: 24px;
+font-family: 'roboto', cursive;
+    position: relative;
+    bottom: 268px;
+    right: 650px;
+    width: 50px;
+}
+.rt:hover{
+    border: 3px solid var(--primaria); 
+    background-color: var(--ternaria);
+    color: var(--primaria);
+}
+.pagamento{
+position: relative;
+bottom: 50px;
+right: 320px;
+width: 200px;
+}
+#pay{
+width: 220px;
+    position: relative;
+right: 526px;
+background-color: var(--primaria);
+color: var(--ternaria);
+border-radius: 30px;
+border: 3px solid var(--ternaria);
+margin-top:1px;
+font-size: 24px;
+text-align: center;
+}
+#pay:hover{
+    border: 3px solid var(--primaria); 
+    background-color: var(--ternaria);
+    color: var(--primaria);
+}
+
+header{
+    
+    font-size: 38px;
+    font-family: 'niconne', cursive;
+    list-style: none;
+    border-bottom: 3px solid var(--primaria);
+    border-top: 15px solid var(--primaria);
+}
+.nav-bar{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 130px;
+}
+.logo{
+    margin-top: 168px;
+    width: 260px;
+    margin-right:208px;
+    
+}
+.produto{
+    position: relative;
+    right: 90%;
+}
+.contato{
+    position: relative;
+    right: 100%;
+}
+
+.carousel {
+    border-top: 2px solid var(--primaria);
+    width: 1600px;
+    margin-top: 100%;
+    
+
+}
+.container{
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 1400px;
+    display: flex;
+    flex-direction: row;
+
+}
+.paralax-esquerda{
+    
+    background-image: url(/assets/img/brooke-lark-4ELjpkrMpHg-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin-left: -15px;
+    margin-top: 0px;
+    width: 250px;
+    
+    
+}
+.paralax-direito{
+    background-image: url(/assets/img/brooke-lark-4ELjpkrMpHg-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin-right: -556px;
+    margin-top: 0px;
+    width: 250px;
+    
+    
+}
+.sub-barra {
+    display: flex;
+    background-color: var(--primaria);
+    margin-top: 2px;
+    height: 170px;
+}
+.sub-barra a {
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 30px;
+    border:  var(--ternaria) solid 3px;
+    color: var(--ternaria);
+    font-size: 45px;
+    font-family: niconne,cursive;
+}
+.sub-barra a:hover{
+    color: var(--primaria);
+    background-color:var(--quartenaria);
+    border: var(--secundaria) solid 3px;
+
+}
+
+.rodape{
+    padding-top: 40px;
+    text-align: center;
+    background-color: var(--primaria);
+    color:var(--ternaria);
+    font-family: niconne,cursive;
+    font-size: 30px;
+    
+    
+}
+
+.link-face{
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 1px;
+    border-radius: 20px;
+    border: var(--ternaria) solid 2px;
+    text-decoration: none;
+    color: var(--ternaria);
+    margin-left: -40px;
+}
+.link-insta{
+    border: var(--ternaria) solid 2px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 1px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: var(--ternaria);
+    margin-left: -40px;
+}
+
+.link-zap{
+    border: var(--ternaria) solid 2px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 1px;
+    border-radius: 20px;
+    text-decoration: none;
+    color:var(--ternaria);
+    margin-left: -10px;
+
+}
+.icon-face{
+   margin-right: 50px;
+    width: 25px;
+   margin-bottom: 20px; 
+    
+}
+.icon-insta{
+    margin-right: 50px;
+    padding-bottom: 20px;
+    width: 50px;
+}
+.icon-zap{
+    margin-right: 20px;
+    padding-bottom: 20px;
+    width: 50px;
+}
+.rodape a:hover{
+    color: var(--primaria);
+    background-color:var(--quartenaria);
+    border: var(--secundaria) solid 3px;
+}
+.fundo {
+    background-image: url(/assets/img/smooth-white-stucco-wall.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.conteudo h1{
+    padding-top: 20px;
+}
+.card{
+    padding-left: 23px;
+    border-radius: 20px;
+    border: var(--ternaria) solid 3px;
+    background-color: var(--primaria);
+    color:var(--ternaria);
+    height: 250px;
+    text-align: center;
+    width: 1300px;
+}
+.content{
+    
+    width: 1400px;
+    font-family: 'Sevillana', cursive;
+    color: var(--primaria);
+    font-size: 38px;
+    text-align: center;
+}
+.content h1 {
+    font-size: 60px;
+}
+.content img{
+    
+    width: 300px;
+}
+
+.icon-login{
+   height: 75px;
+    width: 75px;
+    margin-top: 44px;
+    margin-left: 400px;
+    margin-right: 40px;
+}
+.icon-sign{
+    margin-top: 44px;
+    height: 75px;
+    width: 75px;    
+    margin-left: -30px;
+}
+.login{
+    margin-left: -20px;
+}
+.cadastro{
+    margin-left: 550px;
+}
+.rodape h2{
+    padding-top: 20px;
+}
+
+.rodape-config{
+    padding-top: 80px;
+}
+
+
+
+.btn{
+    
+    width: 170px;
+    background-color: var(--primaria);
+    color: var(--ternaria);
+    border-radius: 30px;
+    border: 3px solid var(--ternaria);
+    box-shadow: 0 0 15px 9px var(--primaria);
+    margin-top:1px;
+    font-size: 28px;
+    font-family: 'Sevillana', cursive;
+    position: relative;
+    left:520px;
+    bottom: 615px;
+}
+
+
+.btn:hover{
+    border: 3px solid var(--primaria); 
+    background-color: var(--ternaria);
+    color: var(--primaria);
+}
+.card-title{
+    font-size: 30px;
+    position: relative;
+    bottom: 200px;
+    right: 260px;
+}
+.card-title2{
+    font-size: 30px;
+    position: relative;
+    bottom:396px;
+    right: 8px;
+    
+}
+.card-title3{
+    font-size: 30px;
+    position: relative;
+    bottom:486px;
+    right: -250px;
+    
+}
+.card-title4{
+    font-size: 30px;
+    position: relative;
+    bottom:480px;
+    right: -230px;  
+}
+
+
+.card-text{
+    font-size:30px ;
+    position: relative;
+    bottom: 200px;
+    right: 260px;
+}
+.quantidade{
+    font-size:30px ;
+    position: relative;
+    bottom: 200px;
+    right: 268px; 
+    font-family: roboto;
+}
+.titulo{
+    font-family: niconne;
+    position: relative;
+    bottom: 210px;
+    right: 280px;
+}
+.titulo2{
+    font-family: niconne;
+    position: relative;
+    bottom: 405px;
+    right: 15px;
+}
+.titulo3{
+    font-family: niconne;
+    position: relative;
+    bottom: 496px;
+    right: -224px;
+}
+.titulo4{
+    font-family: niconne;
+    position: relative;
+    bottom: 486px;
+    right: -222px;
+}
+
+.card img{
+    border-radius: 20px;
+    border: var(--ternaria) solid 3px;
+    margin-top: 20px;
+    height: 200px;
+    width: 200px;
+    align-items: center;
+}
+
+
+.cards  {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    
+    
+}
+.card-title{
+    padding-right: 20px;
+}
+
+.card-text{
+    padding-right: 20px;
+}
+
+.card-2{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+.card-3{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+.card-4{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.separador img{
+    margin-top: -142px;
+    margin-left:800px;
+    height: 320px;
+}
+
+
+.nav-b h2{
+    margin-top: -390px;
+    margin-left: 1300px;
+}
+.nav-b p{
+    padding-top: 50px;
+    width: 350px;
+    margin-left: 1430px;
+}
+.nav-b iframe{
+width: 400px;
+height: 200px;
+margin-left: 1340px;
+margin-top: -10px;
+
+}
+.rodape p{
+    margin-top: -35px;
+}
+.logo-rodape{
+    margin-right: 1100px;
+    margin-top: -400px;
+    width: 400px;
+    
+}
+.separador2{
+    height: 320px;
+    margin-right:850px;
+    margin-top: -520px;
+}
